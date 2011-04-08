@@ -1,0 +1,6 @@
+<project name="infinity" default="make.jar" basedir=".">
+	<target name="make.jar">
+		<delete file="bin\infinity.jar" />
+		<jar jarfile="bin\infinity.jar" manifest="Manifest.txt" compress="false" basedir="bin" />
+	</target>
+</project>
